@@ -20,7 +20,7 @@ footer {
 
 .footer__container img {
     width: 169px;
-    height: 40px;
+    height: auto;
     padding-top: 20px;
  
   
@@ -29,6 +29,7 @@ footer {
 .footer__container p {
   align-items: center;
   color: #f9e800;
+  margin-top: 10px;
   text-align: center;
   font-size: 12px;
  
@@ -37,12 +38,9 @@ footer {
 @media screen and (max-width: 610px) {
   .footer__container {
     align-items: center;
-    width: 600px;
+    width: 100%;
     justify-content: center;
     text-align: center;
   }
 
- img {
-   padding-to: 40px;
-  }
 }

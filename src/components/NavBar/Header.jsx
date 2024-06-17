@@ -17,7 +17,7 @@ export default class Header extends React.Component {
             </li>
             <li>
               <a href="/" className="nav__novovideo">
-                NOVOVÌDEO
+                NOVOVíDEO
               </a>
             </li>
           </ul>
