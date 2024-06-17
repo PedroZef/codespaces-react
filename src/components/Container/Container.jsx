@@ -2,14 +2,30 @@ import React from "react";
 import "./Container.styles.css"
 
 export default class Container extends React.Component {
+    constructor() {
+        super()
+         {
+        
+
+        }
+    }
+
     render() {
         return (
-            <div className="container">
+            <section className="container">
                 <div className="container__img">
-                    <img src="BannerBG.png" alt="Aluraflix Logo" />
-                    <h1>Aluraflix</h1>
+                    <img src="img/BannerBG.png" alt="Aluraflix Logo" />
                 </div>
-            </div>
+                <div className="container__content">
+
+                          <h1></h1>
+
+                          <h2></h2>
+
+                          <p></p>
+                </div>
+              
+            </section>
         );
     }
 }
